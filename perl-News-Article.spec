@@ -14,7 +14,7 @@ Summary(fr):	Module Perl News::Article
 Summary(it):	Modulo di Perl News::Article
 Summary(ja):	News::Article Perl ¥â¥¸¥å¡¼¥ë
 Summary(ko):	News::Article ÆÞ ¸ðÁÙ
-Summary(no):	Perlmodul News::Article
+Summary(nb):	Perlmodul News::Article
 Summary(pl):	Modu³ Perla News::Article
 Summary(pt):	Módulo de Perl News::Article
 Summary(pt_BR):	Módulo Perl News::Article
