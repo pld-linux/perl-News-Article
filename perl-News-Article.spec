@@ -14,7 +14,7 @@ BuildRequires:	perl-libnet
 BuildRequires:	perl-PGP-Sign
 %requires_eq	perl
 Requires:	%{perl_sitearch}
-BuildRoot:	/tmp/%{name}-%{version}-root
+BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 News-Article is a module for handling Usenet articles in mail or news form. 
