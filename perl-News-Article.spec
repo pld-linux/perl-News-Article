@@ -1,12 +1,11 @@
+%include	/usr/lib/rpm/macros.perl
 %define	pdir	News
 %define	pnam	Article
-%include	/usr/lib/rpm/macros.perl
 Summary:	News-Article perl module
 Summary(pl):	Modu³ perla News-Article
 Name:		perl-News-Article
 Version:	1.13
-Release:	7
-
+Release:	8
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -26,7 +25,7 @@ News-Article jest modu³em przeznaczonym do pracy z artyku³ami grup
 dyskusyjnych.
 
 %prep
-%setup -q -n News-Article-%{version}
+%setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
 perl Makefile.PL
