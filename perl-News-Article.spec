@@ -3,7 +3,7 @@ Summary:	News-Article perl module
 Summary(pl):	Modu³ perla News-Article
 Name:		perl-News-Article
 Version:	1.13
-Release:	4
+Release:	5
 License:	GPL
 Group:		Development/Languages/Perl
 Group(de):	Entwicklung/Sprachen/Perl
