@@ -1,8 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	News
 %define	pnam	Article
-Summary:	News-Article perl module
-Summary(pl):	Modu³ perla News-Article
+Summary:	News::Article perl module
+Summary(pl):	Modu³ perla News::Article
 Name:		perl-News-Article
 Version:	1.13
 Release:	8
@@ -17,11 +17,11 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-News-Article is a module for handling Usenet articles in mail or news
+News::Article is a module for handling Usenet articles in mail or news
 form.
 
 %description -l pl
-News-Article jest modu³em przeznaczonym do pracy z artyku³ami grup
+News::Article jest modu³em przeznaczonym do pracy z artyku³ami grup
 dyskusyjnych.
 
 %prep
