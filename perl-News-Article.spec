@@ -24,7 +24,7 @@ Summary(uk):	Модуль для Perl News::Article
 Summary(zh_CN):	News::Article Perl дё©И
 Name:		perl-News-Article
 Version:	1.27
-Release:	2
+Release:	3
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
