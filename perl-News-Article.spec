@@ -4,10 +4,10 @@ Summary(pl):	Modu³ perla News-Article
 Name:		perl-News-Article
 Version:	1.13
 Release:	3
-Copyright:	GPL
+License:	GPL
 Group:		Development/Languages/Perl
 Group(pl):	Programowanie/Jêzyki/Perl
-Source:		ftp://ftp.perl.org/pub/CPAN/modules/by-module/News/News-Article-%{version}.tar.gz
+Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/News/News-Article-%{version}.tar.gz
 BuildRequires:	rpm-perlprov >= 3.0.3-16
 BuildRequires:	perl >= 5.005_03-14
 BuildRequires:	perl-libnet
@@ -17,10 +17,12 @@ Requires:	%{perl_sitearch}
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-News-Article is a module for handling Usenet articles in mail or news form. 
+News-Article is a module for handling Usenet articles in mail or news
+form.
 
 %description -l pl
-News-Article jest modu³em przeznaczonym do pracy z artyku³ami grup dyskusyjnych.
+News-Article jest modu³em przeznaczonym do pracy z artyku³ami grup
+dyskusyjnych.
 
 %prep
 %setup -q -n News-Article-%{version}
