@@ -25,7 +25,8 @@ Summary(zh_CN):	News::Article Perl Ä£¿é
 Name:		perl-News-Article
 Version:	1.27
 Release:	2
-License:	GPL
+# same as perl
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	77a49112a1ec680d4c4eeddcdfbca32c
@@ -57,7 +58,8 @@ dyskusyjnych.
 %install
 rm -rf $RPM_BUILD_ROOT
 
-%{__make} install DESTDIR=$RPM_BUILD_ROOT
+%{__make} install \
+	DESTDIR=$RPM_BUILD_ROOT
 
 %clean
 rm -rf $RPM_BUILD_ROOT
