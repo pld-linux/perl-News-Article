@@ -1,11 +1,30 @@
+#
+# Conditional build:
+# _without_tests - do not perform "make test"
+#
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	News
 %define	pnam	Article
-Summary:	News::Article perl module
-Summary(pl):	Modu³ perla News::Article
+Summary:	News::Article Perl module
+Summary(cs):	Modul News::Article pro Perl
+Summary(da):	Perlmodul News::Article
+Summary(de):	News::Article Perl Modul
+Summary(es):	Módulo de Perl News::Article
+Summary(fr):	Module Perl News::Article
+Summary(it):	Modulo di Perl News::Article
+Summary(ja):	News::Article Perl ¥â¥¸¥å¡¼¥ë
+Summary(ko):	News::Article ÆÞ ¸ðÁÙ
+Summary(no):	Perlmodul News::Article
+Summary(pl):	Modu³ Perla News::Article
+Summary(pt):	Módulo de Perl News::Article
+Summary(pt_BR):	Módulo Perl News::Article
+Summary(ru):	íÏÄÕÌØ ÄÌÑ Perl News::Article
+Summary(sv):	News::Article Perlmodul
+Summary(uk):	íÏÄÕÌØ ÄÌÑ Perl News::Article
+Summary(zh_CN):	News::Article Perl Ä£¿é
 Name:		perl-News-Article
-Version:	1.13
-Release:	8
+Version:	1.27
+Release:	1
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.cpan.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -30,6 +49,7 @@ dyskusyjnych.
 %build
 perl Makefile.PL
 %{__make}
+%{!?_without_tests:%{__make} test}
 
 %install
 rm -rf $RPM_BUILD_ROOT
