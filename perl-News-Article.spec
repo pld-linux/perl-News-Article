@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	News
-%define	pnam	Article
+%define		pdir	News
+%define		pnam	Article
 Summary:	News::Article Perl module
 Summary(cs):	Modul News::Article pro Perl
 Summary(da):	Perlmodul News::Article
