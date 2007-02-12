@@ -6,22 +6,22 @@
 %define		pdir	News
 %define		pnam	Article
 Summary:	News::Article Perl module
-Summary(cs):	Modul News::Article pro Perl
-Summary(da):	Perlmodul News::Article
-Summary(de):	News::Article Perl Modul
-Summary(es):	MÛdulo de Perl News::Article
-Summary(fr):	Module Perl News::Article
-Summary(it):	Modulo di Perl News::Article
-Summary(ja):	News::Article Perl •‚•∏•Â°º•Î
-Summary(ko):	News::Article ∆ﬁ ∏¡Ÿ
-Summary(nb):	Perlmodul News::Article
-Summary(pl):	Modu≥ Perla News::Article
-Summary(pt):	MÛdulo de Perl News::Article
-Summary(pt_BR):	MÛdulo Perl News::Article
-Summary(ru):	Ìœƒ’Ãÿ ƒÃ— Perl News::Article
-Summary(sv):	News::Article Perlmodul
-Summary(uk):	Ìœƒ’Ãÿ ƒÃ— Perl News::Article
-Summary(zh_CN):	News::Article Perl ƒ£øÈ
+Summary(cs.UTF-8):   Modul News::Article pro Perl
+Summary(da.UTF-8):   Perlmodul News::Article
+Summary(de.UTF-8):   News::Article Perl Modul
+Summary(es.UTF-8):   M√≥dulo de Perl News::Article
+Summary(fr.UTF-8):   Module Perl News::Article
+Summary(it.UTF-8):   Modulo di Perl News::Article
+Summary(ja.UTF-8):   News::Article Perl „É¢„Ç∏„É•„Éº„É´
+Summary(ko.UTF-8):   News::Article ÌéÑ Î™®Ï§Ñ
+Summary(nb.UTF-8):   Perlmodul News::Article
+Summary(pl.UTF-8):   Modu≈Ç Perla News::Article
+Summary(pt.UTF-8):   M√≥dulo de Perl News::Article
+Summary(pt_BR.UTF-8):   M√≥dulo Perl News::Article
+Summary(ru.UTF-8):   –ú–æ–¥—É–ª—å –¥–ª—è Perl News::Article
+Summary(sv.UTF-8):   News::Article Perlmodul
+Summary(uk.UTF-8):   –ú–æ–¥—É–ª—å –¥–ª—è Perl News::Article
+Summary(zh_CN.UTF-8):   News::Article Perl Ê®°Âùó
 Name:		perl-News-Article
 Version:	1.27
 Release:	4
@@ -41,8 +41,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 News::Article is a module for handling Usenet articles in mail or news
 form.
 
-%description -l pl
-News::Article jest modu≥em przeznaczonym do pracy z artyku≥ami grup
+%description -l pl.UTF-8
+News::Article jest modu≈Çem przeznaczonym do pracy z artyku≈Çami grup
 dyskusyjnych.
 
 %prep
