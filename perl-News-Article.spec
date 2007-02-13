@@ -6,22 +6,22 @@
 %define		pdir	News
 %define		pnam	Article
 Summary:	News::Article Perl module
-Summary(cs.UTF-8):   Modul News::Article pro Perl
-Summary(da.UTF-8):   Perlmodul News::Article
-Summary(de.UTF-8):   News::Article Perl Modul
-Summary(es.UTF-8):   Módulo de Perl News::Article
-Summary(fr.UTF-8):   Module Perl News::Article
-Summary(it.UTF-8):   Modulo di Perl News::Article
-Summary(ja.UTF-8):   News::Article Perl モジュール
-Summary(ko.UTF-8):   News::Article 펄 모줄
-Summary(nb.UTF-8):   Perlmodul News::Article
-Summary(pl.UTF-8):   Moduł Perla News::Article
-Summary(pt.UTF-8):   Módulo de Perl News::Article
-Summary(pt_BR.UTF-8):   Módulo Perl News::Article
-Summary(ru.UTF-8):   Модуль для Perl News::Article
-Summary(sv.UTF-8):   News::Article Perlmodul
-Summary(uk.UTF-8):   Модуль для Perl News::Article
-Summary(zh_CN.UTF-8):   News::Article Perl 模块
+Summary(cs.UTF-8):	Modul News::Article pro Perl
+Summary(da.UTF-8):	Perlmodul News::Article
+Summary(de.UTF-8):	News::Article Perl Modul
+Summary(es.UTF-8):	Módulo de Perl News::Article
+Summary(fr.UTF-8):	Module Perl News::Article
+Summary(it.UTF-8):	Modulo di Perl News::Article
+Summary(ja.UTF-8):	News::Article Perl モジュール
+Summary(ko.UTF-8):	News::Article 펄 모줄
+Summary(nb.UTF-8):	Perlmodul News::Article
+Summary(pl.UTF-8):	Moduł Perla News::Article
+Summary(pt.UTF-8):	Módulo de Perl News::Article
+Summary(pt_BR.UTF-8):	Módulo Perl News::Article
+Summary(ru.UTF-8):	Модуль для Perl News::Article
+Summary(sv.UTF-8):	News::Article Perlmodul
+Summary(uk.UTF-8):	Модуль для Perl News::Article
+Summary(zh_CN.UTF-8):	News::Article Perl 模块
 Name:		perl-News-Article
 Version:	1.27
 Release:	4
