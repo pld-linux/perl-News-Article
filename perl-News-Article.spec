@@ -24,7 +24,7 @@ Summary(uk.UTF-8):	Модуль для Perl News::Article
 Summary(zh_CN.UTF-8):	News::Article Perl 模块
 Name:		perl-News-Article
 Version:	1.27
-Release:	4
+Release:	5
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
