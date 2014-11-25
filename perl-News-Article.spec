@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	News
 %define		pnam	Article
+%include	/usr/lib/rpm/macros.perl
 Summary:	News::Article Perl module
 Summary(cs.UTF-8):	Modul News::Article pro Perl
 Summary(da.UTF-8):	Perlmodul News::Article
@@ -30,10 +30,11 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	77a49112a1ec680d4c4eeddcdfbca32c
-BuildRequires:	rpm-perlprov >= 4.1-13
+URL:		http://search.cpan.org/dist/News-Article/
+BuildRequires:	perl-PGP-Sign
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	perl-libnet
-BuildRequires:	perl-PGP-Sign
+BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
