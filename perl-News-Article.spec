@@ -4,7 +4,6 @@
 
 %define		pdir	News
 %define		pnam	Article
-%include	/usr/lib/rpm/macros.perl
 Summary:	News::Article Perl module
 Summary(cs.UTF-8):	Modul News::Article pro Perl
 Summary(da.UTF-8):	Perlmodul News::Article
